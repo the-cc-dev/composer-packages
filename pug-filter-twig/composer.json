@@ -1,0 +1,27 @@
+{
+    "name": "capricorncat/pug-filter-twig",
+    "description": "",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cat",
+            "email": "the.cc.dev@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.3",
+        "pug-php/pug": ">=1.11",
+        "timber/timber": "^1.10",
+        "twig/twig": "^2.11"
+    },
+    "require-dev": {
+        "phpunit/phpunit": ">=4.8 <6.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Pug": "src/"
+        }
+    }
+}
